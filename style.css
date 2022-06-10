@@ -188,6 +188,26 @@ img{
     grid-area: nav;
 }
 
+/* Transformaciones y animaciones para entrega*/
+h1{
+    transform: translate(15px);
+}
+.buscar{
+    transform: translate(-15px) scale(1,1.5);
+}
+
+img{
+    transition: all 2;
+}
+
+img:hover{
+    width: 160px;
+    height: 110px;
+}
+
+
+
+/* Transformaciones y animaciones para entrega*/
 
 @media (min-width:320px) and (max-width: 640px) {
     .grid{
